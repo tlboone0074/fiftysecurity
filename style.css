@@ -1,0 +1,375 @@
+
+body {
+    Padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    
+}
+
+/*  -----------------------------------------  footer ----------------------------------*/
+
+/* footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: darkslateblue;
+    text-align: center;
+} */
+
+.footer-wrapper {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.single-footer {
+    width: 33%;
+    float: left;
+    text-align: left;
+    color: #fff;
+} 
+
+.single-footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+}
+
+.single-footer ul a {       
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.single-footer p {
+    width: 70%;
+    font-weight: bold;
+}
+
+footer  {
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+    color: #ffffff;
+    background-color: darkslateblue;
+}
+
+
+
+
+/*---------------------------------   Showcase   ------------------------------------*/
+
+#showcase {
+    background: url('../FiftyFiftySecurity/images/usaflag.png') no-repeat;
+    min-height: 800px;
+    text-align: center;   
+    width: 100%;    
+}
+
+
+/*-----------------------------------------    global      --------------------------------------*/
+/* positions security logo the left top corner */
+.logo img {
+    float: left;
+    padding: 10px;
+}
+
+/* references the background that the navigation resides at */
+header {
+    background: darkslateblue;   
+    padding-top: 10px;
+    min-height: 40px;
+    border-bottom: white 3px solid;    
+}
+
+/*targets the  Navigation menu */
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* targets the navigation menu hover and the current navigation page that is opened. */
+ul .current a {
+    color: red;
+    font-weight: bold;
+}
+
+/* targets the navigation menu */
+/* a:hover {
+
+    background: red;
+    transition: 0.2s;
+} */
+
+header a:hover {
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.2s;
+}
+/* header ul {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+
+header li {
+    display: inline-block;
+    padding: 0 20px 0 20px;
+}
+
+
+/* flexbox used for the two contents under the navigation menu */
+.security-container {
+display: flex;
+justify-content: space-around;
+
+}
+
+.security-item {
+width: 500px;
+
+}
+
+.security-item-1 {
+    min-height: 300px;
+    /* margin-left: 70px; */
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.security-item-2 {
+    min-height: 300px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+
+/* changes the size of the phone number in top right corner */
+.security-item-2 p {
+    font-size: 20px;
+}
+
+.transparent {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 20px 40px 20px 40px;
+    background: rgba(255,255,255,.6);
+    box-shadow: 0 5px 15px rgba(5,10,18,black);
+}
+
+/*targets the statement above the button*/
+.transparent p {
+    font-size: 20px;    
+    padding-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px white solid;
+}
+
+/* targets the anchor tag */
+.transparent a {  
+    color: black;
+    font-size: 15px;
+    text-decoration: none;   
+   
+}
+
+.transparent a:hover {
+    background-color: darkgray;
+    transition: 0.7s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Add space around the button */
+.transparent button {                
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgba(255,255,255,.4);
+    border: none;
+   
+    
+}
+
+/* targets the blue area */
+.services-offered{
+    display: grid;
+    justify-content: center;    
+    color: red;   
+    margin-top: -150px;
+    margin-bottom: -50px;
+    
+    min-height: 350px;
+    width: 100%;
+}
+
+.services-offered h2 {
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.services-offered p {    
+    max-width: 480px;
+    margin: 0;
+    color: black;
+}
+
+.services-offered a {
+    color: red;
+}
+
+.services-offered ul {
+    color: red;
+}
+
+/* section with james photo */
+.hours-offered{   
+    /* display: grid; */
+    background-color: royalblue;
+    min-height: 410px;
+    max-height: 420px;
+    /* background: rgba(255, 255, 255, 0.2); */
+    /* color: red;    */
+    /* justify-content: center;      */
+    /* min-height: 400px; */
+    width: 100%; 
+    margin: 0 auto;
+}
+
+
+/* targets james photo */
+.hours-offered img {
+    float: right;
+    margin: 10px;
+}
+
+.hours-offered h3 {
+    /* use css grid properties below( display: grid and justif-content to center element ) */
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 20%;
+    /* margin: 0; */
+    color: white;    
+    /* margin-top: 75px; */
+    font-family: papyrus;
+    font-size: 40px;
+}
+    
+    
+
+/* References Hours of operation statement */
+.hours-offered h4 {
+   
+    /* moves the tag to the left below to give padding between body and element  */
+    padding-left: 20%;
+    color: white;
+    font-family: papyrus;
+    font-size: 25px;
+    margin-top: -10px;
+    /* uses the text- align property to center the content. */
+    text-align: center;
+    /* border-bottom: 2px white solid; */
+}
+
+.contact-btn {    
+    /* margin: 0 auto; */
+    display: block;
+    font-size: normal;
+    padding: 15px 20px 0 20px;
+    width: 80px;
+    height: 40px;
+    /* uses margin to move the entire class or button to the left below */
+    margin-left: 45%;
+    border: 3px white solid;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.contact-btn a {
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.contact-btn a:hover {
+    color: red;
+}
+
+/* .james-img-one {
+   
+    /* background: url('../Fifty-Fifty-Security/images/james_img_one.png') no-repeat; */
+    /* min-height: 200px;
+    max-width: 600px; */  
+    /* max-width: 410px;     
+    max-height: 305px;   */
+    /* float: right; */
+    
+    
+    /* width: 100%;     */
+/* } */
+ 
+
+/* .contact {
+    border: none;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    /* background: rgba(255,255,255,.4); */
+    /* border: 2px white solid;
+    color: white; */
+
+/* .hours-offered h3 {
+    margin-top: 50px;
+} */
+
+.space {
+    margin-top: 600px;
+}
+
+
+/* .services-offered h3 {
+    margin: 0 auto;
+    color: red;
+}
+
+.services-offered p {
+    margin: 0 auto;
+    color: red;
+
+} */
+
+/* .security-item-2 {
+    background: url('../Fifty-Fifty-Security/images/phone.jpg');
+    width: 30px;
+    height: 30px;
+} */
+
+
+
+/* #security-container h1 {
+    margin-top: 60px;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    max-width: 350px;
+}
+
+#security p {
+    float: right;
+    color: white;
+} */
